@@ -1,0 +1,29 @@
+# Python-generated files & cache
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+
+# ------------------------------------
+# YOLO 프로젝트용 규칙 추가
+# ------------------------------------
+
+# IDE and OS specific files (권장)
+.vscode/
+.idea/
+.DS_Store
+
+# YOLOv8 학습 결과물
+# model.train() 실행 시 생성되는 runs 폴더를 무시합니다.
+# 이 폴더에는 용량이 큰 모델 가중치 파일(.pt)이 포함됩니다.
+runs/
+
+# 데이터셋 이미지 파일
+# FoodSeg103_YOLO_seg/images/ 폴더와 그 하위 폴더에 있는 모든 .jpg 파일을 무시합니다.
+FoodSeg103_YOLO_seg/images/**/*.jpg
