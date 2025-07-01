@@ -27,3 +27,10 @@ runs/
 # 데이터셋 이미지 파일
 # FoodSeg103_YOLO_seg/images/ 폴더와 그 하위 폴더에 있는 모든 .jpg 파일을 무시합니다.
 FoodSeg103_YOLO_seg/images/**/*.jpg
+한국 음식 이미지/
+dataset/
+dataset_split/
+
+
+#sam model
+sam_vit_l_0b3195.pth

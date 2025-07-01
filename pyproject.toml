@@ -6,8 +6,16 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "kagglehub>=0.3.12",
+    "matplotlib>=3.9.4",
     "opencv-python>=4.11.0.86",
     "pyyaml>=6.0.2",
+    "scikit-learn>=1.6.1",
+    "segment-anything>=1.0",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
     "tqdm>=4.67.1",
     "ultralytics>=8.3.158",
 ]
+
+[tool.uv.sources]
+segment-anything = { git = "https://github.com/facebookresearch/segment-anything.git" }
